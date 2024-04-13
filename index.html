@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dream11 fantasy</title>
+    <link rel="icon" href="logo.jpg">
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <style>
+        body {
+
+            background-color: black;
+            color: white;
+        }
+
+        .box {
+            height: 40px;
+            width: 35%;
+            background-color: rgba(57, 174, 228, 0.651);
+            margin: auto;
+            border-radius: 20px;
+            text-decoration: none;
+        }
+
+        @media only screen and (max-width: 900px) {
+            .box {
+                width: 90%;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row text-center mx-auto p-3">
+
+                <p class="mt-2"> <img src="logo.jpg" alt="" class="img-fluid rounded-circle"
+                        style="height: 150px;"></p>
+                <p class="fs-3 fw-bold">DREAM11 FANTASY</p>
+                <p>CRICKET PREDICTION KA <span style="color: yellow;">MAFIA</span></p>
+                <p class="fs-3" style="color: rgb(232, 136, 18);"><span id="day"></span> : <span id="hour"></span> : <span id="minute"></span> : <span id="second"></span> </p>
+                <p style="color: yellow;">DAYS HOURS MINUTES SECONDS</p>
+                <p><i class="fa-solid fa-arrow-right fs-5 fw-bold"></i>&nbsp; We will provide teams for all fantasy's</p>
+                <p><i class="fa-solid fa-arrow-right fs-5 fw-bold"></i>&nbsp; JOIN PRIME AND WIN 100 PERCENT GL💯🔥</p>
+                <p><i class="fa-solid fa-arrow-right fs-5 fw-bold"></i>&nbsp; DREAM11 FANTASY KE SATH MATLAB JEET KE SATH</p>
+                <p class="fs-5">JALDI JUDO OR <span style="color: yellow;">LAKHO KAMAO</span><br> JOIN <span
+                        style="color: yellow;">PREMIUM</span> CHANNEL FOR FREE</p>
+                <div class="box fw-bold p-1">
+                    <a href="https://t.me/+N8suprXwfyQ5NWM1" style="text-decoration: none ; color: white;">
+                        <i class="fa-brands fa-telegram float-start ms-4 fs-3 mt-1"></i> &nbsp;
+                    JOIN NOW FOR FREE &nbsp;
+                    <i class="fa-brands fa-telegram fs-3 me-4 float-end mt-1"></i> 
+                    </a>
+                </div>
+                <p class="pt-3">AISA MAUKA BAAR BAAR NAHI AAYEGA ABHI <br> JOIN KRO TELEGRAM CHANNEL</p>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        window.onload=()=>show();
+function show()
+{
+    xclock=new Date();
+    day.innerHTML=xclock.getDay();    
+    hour.innerHTML=xclock.getHours();    
+    minute.innerHTML=xclock.getMinutes();
+    second.innerHTML=xclock.getSeconds();
+    setTimeout("show()",10)
+}
+    </script>
+
+</body>
+
+</html>
